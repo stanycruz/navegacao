@@ -18,6 +18,9 @@ const Content = props => (
             <Route path="/home">
                 <Home />
             </Route>
+            <Route exact path="/">
+                <Home />
+            </Route>
         </Switch>
     </main>
 )
